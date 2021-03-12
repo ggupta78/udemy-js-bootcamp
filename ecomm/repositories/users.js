@@ -30,6 +30,8 @@ class UsersRepositories {
     records.push(attrs);
     // write the updated records back to the file
     await this.writeAll(records);
+
+    return attrs;
   }
 
   async writeAll(records) {

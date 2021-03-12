@@ -4,5 +4,10 @@
     "password": "asdf",
     "passwordConfirmation": "asdf",
     "id": "f55c696a"
+  },
+  {
+    "email": "test@test.com",
+    "password": "asdf",
+    "id": "5c3b0722"
   }
 ]
