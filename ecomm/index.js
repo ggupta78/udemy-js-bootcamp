@@ -2,6 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const cookieSession = require('cookie-session');
 const usersRepo = require('./repositories/users');
+const { comparePasswords } = require('./repositories/users');
 
 const app = express();
 
@@ -73,8 +74,10 @@ app.post('/signin', async (req, res) => {
     return res.send('Email not found!');
   }
 
-  if (user.password !== password) {
-    res.send('Invalid password!');
+  const isValidPassword = await comparePasswords(user.password, password);
+
+  if (!isValidPassword) {
+    return res.send('Invalid password!');
   }
 
   req.session.userId = user.id;

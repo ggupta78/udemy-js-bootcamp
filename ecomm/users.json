@@ -1,13 +1,7 @@
 [
   {
     "email": "test@example.com",
-    "password": "asdf",
-    "passwordConfirmation": "asdf",
-    "id": "f55c696a"
-  },
-  {
-    "email": "test@test.com",
-    "password": "asdf",
-    "id": "5c3b0722"
+    "password": "6a7f6f30765939cf17ba2646ea7ffe4881b69a85a17bcb52fc4df0e6085b58a971aad7f6d3380596179fee61c7b6e2d3679b5ef1c8be17d82cff9b9d15517fad.4a3ad5f60b3765e9",
+    "id": "3668e934"
   }
 ]
