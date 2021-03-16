@@ -8,5 +8,20 @@
     "email": "ggupta78@gmail.com",
     "password": "3f963d78750548aa92decf9022712f8ced4576577780aebfe55540ae099ff11acd6476fb332dae654c3883fb4c290f782c8bf7db21924875cbe4873f273ba3c7.dbe39fa20b85d439",
     "id": "590126c2"
+  },
+  {
+    "email": "test2@example.com",
+    "password": "ce96fe392c9a41f353546ca225b94a0a6dac33f9d89b8f7b4d6f75fc2bdf3c03fe4b700491fbbb89fc2a4383d9ec2bd4bbc258ada59ebf2c107cf46ba464e733.69103538b92529ed",
+    "id": "8e2d7199"
+  },
+  {
+    "email": "test3@example.com",
+    "password": "4b1ac18f3c606cca050d95019771c5063a338f70466add1ec8f0b1ca3d035516c7a591213c8185daf8332b88e39d710fa64339981fcfa1b80b164844d6619da5.8f488d2c0a342afc",
+    "id": "8796b73d"
+  },
+  {
+    "email": "test4@example.com",
+    "password": "b27ed909b073e2c9c54f88a1fb2b42b19ee9101bba67d92e6db1ecf316b5b5195e397c310f1ee017c104b35c02fead2f238e3033eb614796de14e956ec3d04c2.8bcc4045d699acd0",
+    "id": "9158d09d"
   }
 ]

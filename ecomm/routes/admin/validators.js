@@ -25,6 +25,8 @@ module.exports = {
       if (req.body.password !== passwordConfirmation) {
         throw new Error('Passwords must match!');
       }
+
+      return true;
     }),
   requireEmailExists: check('email')
     .trim()
@@ -62,5 +64,5 @@ module.exports = {
     .trim()
     .toFloat()
     .isFloat({ min: 1 })
-    .withMessage('Must be greater than 0!'),
+    .withMessage('Must be greater than 1!'),
 };

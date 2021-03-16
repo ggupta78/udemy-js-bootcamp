@@ -9,6 +9,7 @@ module.exports = ({ req, errors }) => {
           <div class="column is-one-quarter">
             <form method="POST">
               <h1 class="title">Sign Up</h1>
+              <h4>sessionId: ${req.session.userId}</h4>
               <div class="field">
                 <label class="label">Email</label>
                 <input required class="input" placeholder="Email" name="email" />
