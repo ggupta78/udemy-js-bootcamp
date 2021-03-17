@@ -1,4 +1,4 @@
-const layout = require('./layout');
+const layout = require('../layout');
 
 module.exports = ({ products }) => {
   const renderedProducts = products
@@ -15,6 +15,7 @@ module.exports = ({ products }) => {
             </div>
             <footer class="card-footer">
               <form action="/cart/products" method="POST">
+                <input hidden name="productId" value="${product.id}" />
                 <button class="button has-icon is-inverted">
                   <i class="fa fa-shopping-cart"></i> Add to cart
                 </button>
