@@ -18,5 +18,5 @@ it('Should sum an array', () => {
 });
 
 it('beforeEach should initialise numbers array', () => {
-  assert.strictEqual(numbers.length, 4);
+  assert.strictEqual(numbers.length, 3);
 });
